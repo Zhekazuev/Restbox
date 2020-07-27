@@ -2,6 +2,7 @@
 RESTBOX
 RESTful API realisation for Netbox
 Methods need to work with Netbox
+Module auth - file with netbox's tokens and urls
 """
 import requests
 import json
