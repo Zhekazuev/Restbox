@@ -14,8 +14,8 @@ class Initiation:
         """
         Init parameters for connect to Netbox
         """
-        self.api_token = auth.netbox_token_test
-        self.nb_url = auth.netbox_token_test
+        self.nb_url = auth.NETBOX_URL_MAIN
+        self.api_token = auth.NETBOX_TOKEN_MAIN
         self.headers = {'Authorization': f'Token {self.api_token}', 'Content-Type': 'application/json',
                         'Accept': 'application/json'}
 
